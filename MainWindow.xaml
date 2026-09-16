@@ -5,7 +5,7 @@
  MinHeight="420" MinWidth="440">
     <ScrollViewer VerticalScrollBarVisibility="Auto">
         <StackPanel Margin="24">
-            <TextBlock FontSize="28"><Run Text="Steve "/><LineBreak/><Run/></TextBlock>
+            <TextBlock FontSize="28"><Run Text="Steve "/><LineBreak/><Run Text="Salvage scout "/><LineBreak/><Run Text=": mission to decode these messages "/></TextBlock>
             <TextBlock Text="Packets (separate with semicolons)" Margin="0,16,0,4"/>
             <TextBox x:Name="PacketInput" MaxLength="200"
     Text="PING;PING;DISTRESS;STOP;PING"/>
